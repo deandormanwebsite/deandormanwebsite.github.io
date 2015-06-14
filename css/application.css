@@ -1,0 +1,248 @@
+/* line 2, ../sass/components/_base.scss */
+body {
+  background: #7eb2ad;
+  margin: 0;
+}
+
+/* line 6, ../sass/components/_base.scss */
+h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* line 11, ../sass/components/_base.scss */
+.info {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 15, ../sass/components/_base.scss */
+ol {
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_navigation.scss */
+.nav {
+  width: 100%;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+/* line 8, ../sass/components/_navigation.scss */
+ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* line 12, ../sass/components/_navigation.scss */
+ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #ccc;
+  width: 16.6667%;
+  /* fallback for non-calc() browsers */
+  width: calc(100% / 6);
+  box-sizing: border-box;
+  font-family: georgia, serif;
+  font-weight: bold;
+}
+/* line 24, ../sass/components/_navigation.scss */
+ul li:first-child {
+  border-left: none;
+}
+/* line 27, ../sass/components/_navigation.scss */
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #0d223c;
+  padding: 10px 0;
+}
+
+/* line 1, ../sass/components/_header.scss */
+.header {
+  background: #0d223c;
+  padding: 10px;
+  height: 350px;
+  margin: 0;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  text-align: center;
+}
+/* line 13, ../sass/components/_header.scss */
+.header h1 {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: georgia, serif;
+  margin: 0;
+}
+/* line 19, ../sass/components/_header.scss */
+.header h2 {
+  color: #ffffff;
+  font-size: 1.0em;
+  font-family: georgia, serif;
+  margin: 0;
+  text-align: center;
+}
+/* line 26, ../sass/components/_header.scss */
+.header img {
+  height: 280px;
+  width: 380px;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_mediagrid.scss */
+.mediagrid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 1, ../sass/components/_herosection.scss */
+.about {
+  color: #ffffff;
+  background: #4c707c;
+  margin-top: 40px;
+  display: block;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #ffffff;
+  font-family: georgia, serif;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+
+/* line 18, ../sass/components/_herosection.scss */
+p {
+  text-align: center;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+/* line 23, ../sass/components/_herosection.scss */
+h3 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* line 28, ../sass/components/_herosection.scss */
+ol {
+  list-style-type: none;
+}
+
+/* line 32, ../sass/components/_herosection.scss */
+.contact {
+  text-align: center;
+}
+
+/* line 35, ../sass/components/_herosection.scss */
+.sessioninfo {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* line 40, ../sass/components/_herosection.scss */
+p {
+  text-align: center;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+/* line 45, ../sass/components/_herosection.scss */
+h3 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* line 50, ../sass/components/_herosection.scss */
+.downloads {
+  background: #0d223c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 3px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: .9em;
+}
+
+/* line 60, ../sass/components/_herosection.scss */
+.fallout {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 1.1em;
+}
+
+/* line 65, ../sass/components/_herosection.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 68, ../sass/components/_herosection.scss */
+.doc {
+  font-size: .8em;
+}
+
+/* line 1, ../sass/components/_aboutme.scss */
+.book {
+  background: #0d223c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 3px solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* line 11, ../sass/components/_aboutme.scss */
+img {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+/* line 16, ../sass/components/_aboutme.scss */
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #7eb2ad;
+}
+/* line 20, ../sass/components/_aboutme.scss */
+a:hover {
+  color: #ffffff;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer {
+  background: #4c707c;
+  height: auto;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-bottom-color: #ffffff;
+  margin-top: 0;
+  padding-top: 5px;
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  font-family: georgia, serif;
+}
+
+/* line 14, ../sass/components/_footer.scss */
+i {
+  padding: 10px 10px;
+  text-align: center;
+}
