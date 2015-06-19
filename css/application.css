@@ -2,6 +2,7 @@
 body {
   background: #7eb2ad;
   margin: 0;
+  font-family: georgia, serif;
 }
 
 /* line 6, ../sass/components/_base.scss */
@@ -127,6 +128,7 @@ p {
   text-align: center;
   font-size: 1.3em;
   color: #ffffff;
+  font-family: georgia, serif;
 }
 
 /* line 23, ../sass/components/_herosection.scss */
@@ -151,6 +153,7 @@ ol {
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
+  
 }
 
 /* line 40, ../sass/components/_herosection.scss */
