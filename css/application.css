@@ -206,6 +206,8 @@ h4 {
   color: #ffffff;
   text-align: center;
   font-size: 1.0em;
+  padding-left: 20px;
+  padding-right:20px;
 }
 
 /* line 11, ../sass/components/_aboutme.scss */
